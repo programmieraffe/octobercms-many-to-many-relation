@@ -1,0 +1,11 @@
+list: ~/plugins/studydigital/demorelationuser/models/user/columns.yaml
+modelClass: StudyDigital\Demorelationuser\Models\User
+title: Users
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'studydigital/demorelationuser/users/update/:id'

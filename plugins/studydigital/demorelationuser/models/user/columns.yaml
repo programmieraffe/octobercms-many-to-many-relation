@@ -1,0 +1,4 @@
+columns:
+    username:
+        label: username
+        type: text

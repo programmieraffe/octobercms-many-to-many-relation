@@ -1,0 +1,11 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+users:
+    label: Users
+    view:
+        list: $/studydigital/demorelationuser/models/user/columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        form: $/studydigital/demorelationuser/models/user/fields.yaml

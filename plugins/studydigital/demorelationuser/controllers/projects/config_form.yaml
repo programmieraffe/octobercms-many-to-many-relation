@@ -1,0 +1,11 @@
+name: Projects
+modelClass: StudyDigital\Demorelationuser\Models\Project
+form: ~/plugins/studydigital/demorelationuser/models/project/fields.yaml
+defaultRedirect: studydigital/demorelationuser/projects
+create:
+    redirect: 'studydigital/demorelationuser/projects/update/:id'
+    redirectClose: studydigital/demorelationuser/projects
+update:
+    redirect: studydigital/demorelationuser/projects
+    redirectClose: studydigital/demorelationuser/projects
+preview: {  }

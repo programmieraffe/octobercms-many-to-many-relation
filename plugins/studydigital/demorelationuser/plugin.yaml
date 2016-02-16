@@ -1,0 +1,20 @@
+plugin:
+    name: 'studydigital.demorelationuser::lang.plugin.name'
+    description: 'studydigital.demorelationuser::lang.plugin.description'
+    author: studydigital
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Projects
+        url: studydigital/demorelationuser/projects
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item-projects:
+                label: Projects
+                url: studydigital/demorelationuser/projects
+                icon: icon-sitemap
+            side-menu-item-users:
+                label: User
+                url: studydigital/demorelationuser/users
+                icon: icon-users

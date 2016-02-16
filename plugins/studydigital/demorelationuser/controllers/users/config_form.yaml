@@ -1,0 +1,10 @@
+name: Users
+form: ~/plugins/studydigital/demorelationuser/models/user/fields.yaml
+modelClass: StudyDigital\Demorelationuser\Models\User
+defaultRedirect: studydigital/demorelationuser/users
+create:
+    redirect: 'studydigital/demorelationuser/users/update/:id'
+    redirectClose: studydigital/demorelationuser/users
+update:
+    redirect: studydigital/demorelationuser/users
+    redirectClose: studydigital/demorelationuser/users
